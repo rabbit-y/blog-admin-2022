@@ -1,0 +1,19 @@
+diff --git a/pontCore/pontCore.js b/pontCore/pontCore.js
+index 1e1bdfcaefedf5e37ac95014dbecd6953ad10dbb..9ebc94ff4b25a2ac83a54bf95806e50fde8bb1e1 100644
+--- a/pontCore/pontCore.js
++++ b/pontCore/pontCore.js
+@@ -13,7 +13,7 @@ var __assign = (this && this.__assign) || function () {
+     };
+     return __assign.apply(this, arguments);
+ };
+-Object.defineProperty(exports, "__esModule", { value: true });
++// Object.defineProperty(exports, "__esModule", { value: true });
+ var PontCoreManager = /** @class */ (function () {
+     function PontCoreManager() {
+     }
+@@ -72,4 +72,4 @@ var PontCoreManager = /** @class */ (function () {
+     PontCoreManager.singleInstance = null;
+     return PontCoreManager;
+ }());
+-exports.PontCore = PontCoreManager.getSignleInstance();
++export const PontCore = PontCoreManager.getSignleInstance();

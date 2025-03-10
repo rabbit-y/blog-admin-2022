@@ -1,0 +1,11 @@
+{
+  "originType": "SwaggerV3",
+  "originUrl": "http://han96.com/api/v3/api-docs",
+  "templatePath": "./pontTemplate",
+  "outDir": "./src/services",
+  "mocks": {
+    "enable": false
+  },
+  "surrounding": "javaScript",
+  "templateType": "fetch"
+}
